@@ -1,0 +1,21 @@
+[project]
+name = "verifi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "absl-py>=2.5.0",
+    "bitsandbytes>=0.50.0",
+    "datasets>=5.0.0",
+    "evaluate>=0.4.6",
+    "gputil>=1.4.0",
+    "nltk>=3.10.0",
+    "peft>=0.19.1",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+    "rouge-score>=0.1.2",
+    "tqdm>=4.69.1",
+    "wandb>=0.28.1",
+]
+
