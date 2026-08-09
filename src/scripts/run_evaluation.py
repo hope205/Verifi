@@ -2,15 +2,15 @@ import argparse
 
 from datasets import load_dataset
 
-from utils.config import (
+from src.utils.config import (
     load_config,
 )
 
-from utils.model import (
+from src.utils.model import (
     load_tokenizer,
 )
 
-from utils.evaluate import (
+from src.utils.evaluate import (
     evaluate_model,
 )
 

@@ -7,10 +7,10 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from utils.config import load_config
-from utils.data import load_financial_dataset, prepare_dataset
-from utils.model import load_qlora_model, load_tokenizer
-from utils.train import train_model
+from src.utils.config import load_config
+from src.utils.data import load_financial_dataset, prepare_dataset
+from src.utils.model import load_qlora_model, load_tokenizer
+from src.utils.train import train_model
 
 logging.basicConfig(
     level=logging.INFO,
